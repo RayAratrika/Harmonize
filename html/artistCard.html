@@ -1,0 +1,11 @@
+<div class='card-content'>
+    <div class='image'><img src='{%image_src%}'></div><br>
+    <a href='/harmonize?artist={%artist_name_query%}' class='artist'>{%artist_name%}</a>
+</div>
+
+<script>
+    var artist = document.getElementsByClassName('artist');
+    for(var i = 0; i < artist.length; i++){
+        console.log(artist[i].innerText);
+    }
+</script>

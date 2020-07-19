@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+
+    <title>Harmonize</title>
+    <style>
+        body{
+            text-align: center;
+            font-family: 'Montserrat Alternates', sans-serif;
+            background-image: linear-gradient(rgb(255, 236, 128), rgb(196, 170, 255));
+            background-attachment: fixed;
+            background-position: center;
+            color: white;
+        }
+        .header{
+            color: rgb(0, 0, 0);
+            margin: 5% auto;
+        }
+        .header h1{
+            font-size: 64px;
+            font-weight: bolder;
+        }
+        .card{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            width: 90%;
+            margin: auto;
+            text-align: center;
+        }
+        .card-content{
+            width: auto;
+            height: auto;
+            text-align: center;
+            margin: 0 0 0 4%;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .card-content img{
+            width: 250px;
+            height: auto;
+            margin: 12% 0 -10% auto;
+            border-radius: 30px;
+        }
+        .card-content a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='header'>
+        <h1>HARMONIZE</h1>
+    </div>
+    <div class='card'>
+        {%artist_card%}
+    </div>
+</body>

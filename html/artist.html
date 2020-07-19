@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+
+    <title>Harmonize</title>
+    <style>
+        body{
+            text-align: center;
+            font-family: 'Montserrat Alternates', sans-serif;
+            background-image: linear-gradient(rgb(255, 236, 128), rgb(196, 170, 255));
+            background-attachment: fixed;
+            background-position: center;
+            color: white;
+        }
+
+        .header{
+            color: rgb(0, 0, 0);
+            margin: 5% auto;
+        }
+        .header h1{
+            font-size: 64px;
+            font-weight: bolder;
+        }
+        .artistName{
+            text-align: left;
+            margin: -1% auto 3% 12%;
+            font-size: 46px;
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+        }
+        .cards{
+            margin-bottom: 5%;
+        }
+        .cardElement{
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+            margin: auto;
+            background-image: linear-gradient(to right, rgb(255, 219, 15), rgb(238, 157, 8));
+            border-radius: 40px;
+            box-shadow: 0 10px 14px 0 rgba(48, 48, 48, 0.295);
+        }
+        .cardElement a{
+            font-size: 22px;
+            padding-top: 2.5%;
+            text-decoration: none;
+            color: white;
+            width: 44%;
+            padding-left: 4%;
+            text-align: left;
+        }
+        .cardElement .rank{
+            font-weight: bold;
+            padding-top: 0.4%;
+            font-size: 20px;
+            width: 15%;
+            text-align: left;
+        }
+        .cardElement .listeners{
+            font-size: 20px;
+            padding-top: 0.3%;
+            width: 15%;
+            text-align: left;
+        }
+        .cardElement .txt{
+            font-size: 12px;
+            margin-top: -12%;
+            font-weight: 300;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class='header'>
+        <h1>HARMONIZE</h1>
+    </div>
+    <div class='artistName'>{%artist_name%}</div>
+    <div class='container'>
+        {%cards%}
+    </div>
+</body>

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "artist": "Scorpions",
+        "src": "https://i.axs.com/2017/08/scorpions_08-21-17_7_599b30e5558d3.jpg"
+    },
+    {
+        "id": 2,
+        "artist": "Black Label Society",
+        "src": "https://t2.genius.com/unsafe/440x440/https%3A%2F%2Fimages.genius.com%2Fa08515b18614f0ae091a95ddf9414daf.1000x1000x1.jpg"
+    },
+    {
+        "id": 3,
+        "artist": "Nirvana",
+        "src": "https://dazedimg-dazedgroup.netdna-ssl.com/694/azure/dazed-prod/1220/9/1229141.jpg"
+    },
+    {
+        "id": 4,
+        "artist": "Metallica",
+        "src": "https://www.rollingstone.com/wp-content/uploads/2018/09/metallica-whiskey.jpg?resize=1800,1200&w=1200"
+    }
+]
